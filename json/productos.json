@@ -1,0 +1,93 @@
+[
+   {
+      "id": 1,
+       "name": "Pernil de cerdo",
+       "price": 50000,
+       "img": "./img/1pernilCerdo.png"
+    },
+    {
+        "id": 2,
+         "name": "Pernil de ternera",
+         "price": 60000,
+         "img": "./img/2pernilTernera.png"
+      },
+      {
+        "id": 3,
+         "name": "Mesa Dulce",
+         "price": 40000,
+         "img": "./img/3mesaDulce.png"
+      },
+      {
+        "id": 4,
+         "name": "Mesa Dulce Especial",
+         "price": 45000,
+         "img": "./img/4mesaDulceEspecial.png"
+      },
+      {
+        "id": 5,
+         "name": "Tortas 30 cm",
+         "price": 30000,
+         "img": "./img/5tortas30cm.jpg"
+      },
+      {
+        "id": 6,
+         "name": "Tortas Temáticas",
+         "price": 35000,
+         "img": "./img/6TortasTematicas.jpg"
+      },
+      {
+        "id": 7,
+         "name": "Tortas clásicas",
+         "price": 25000,
+         "img": "./img/7TortasClasicas.jpg"
+      },
+      {
+          "id": 8,
+           "name": "Servicio de Pizza-Party",
+           "price": 50000,
+           "img": "./img/8servicioPizzaParty.png"
+        },
+      {
+        "id": 9,
+         "name": "Mesa Picada",
+         "price": 25000,
+         "img": "./img/9MesaPicada.png"
+      },
+      {
+        "id": 10,
+         "name": "Miga mediterráneo",
+         "price": 1500,
+         "img": "./img/10MigaMed.jpg"
+      },
+      {
+        "id": 11,
+         "name": "Croissant de JyQ",
+         "price": 1100,
+         "img": "./img/11CroissantJQ.jpg"
+      },
+      {
+        "id": 12,
+         "name": "Langostinos",
+         "price": 2200,
+         "img": "./img/12Langostinos.jpg"
+      },
+      {
+        "id": 13,
+         "name": "Bastones",
+         "price": 2000,
+         "img": "./img/13Bastones.jpg"
+      },
+      {
+        "id": 14,
+         "name": "Volovans",
+         "price": 2300,
+         "img": "./img/14Volovan.jpg"
+      },
+      
+      {
+        "id": 15,
+         "name": "Vasito Shot",
+         "price": 1800,
+         "img": "./img/15vasitoShot.png"
+      }
+  ]

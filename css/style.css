@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgba(5,7,12,0.95),rgba(5,7,12,0.95)),
+     url(../img/portadacerdo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lexend Tera';
+    color: #ffe000;
+    
+}
+/*Navbar*/
+.banner img{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom:-40px;
+}
+.container {
+    width: 100%;
+    height: 60px;
+    background:#ffe000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position:fixed;
+    top: 0px;
+    font-family: 'Lexend Tera';
+    text-decoration: none;
+   
+}
+.container buttons{
+    display: flex;
+    
+}
+.logo{
+    width: 40px;
+    margin: 0;
+
+}
+.logo img{
+    width: 100%;
+}
+.logo img:hover{
+    width:110%;
+}
+
+.buttons .btn{
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    margin-right: 100px;
+}
+.buttons .btn:hover{
+    color:white;
+    width: 150%;
+}
+/*Initio*/
+#section-Initio h2{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#section-Initio .pictureInicio{
+    width: 100%;
+    margin: 0px 25px;
+    border-radius: 25px;
+
+}
+#section-Initio .container-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    
+    
+}
+#section-Initio .card{
+    text-align: center;
+    box-shadow: rgba(0,0,0,10) 0px 5px 15px;
+    background: black;
+    border-radius: 15px;
+    margin: 0px 5px;
+}
+#section-Initio .card h1{
+    color:#ffe000;
+    font-size: 30px;
+}
+#section-Initio .card p{
+    color:#ffe000;
+    font-size: 20px;
+}
+#section-Initio .textQuienesSomos h1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+#section-Initio .textQuienesSomos p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/*Contact*/
+#section-Contact{
+    width: 100%;
+    background-color:black;
+    
+}
+#section-Contact .box-one{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+#section-Contact .box-one .contact figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#section-Contact .box-one .contact figure img{
+    width: 250px;
+    height: 250px;
+}
+#section-Contact .box-one .contact h2{
+    color: #ffe000;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+#section-Contact .box-one .contact p{
+    color: #ffe000;
+    margin-bottom: 10px;
+}
+#section-Contact .box-one .contact .container-redes a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+#section-Contact .box-one .contact .container-redes a img{
+    width: 40px;
+    height: 40px;
+}
+#section-Contact .box-one .contact .container-redes a img:hover{
+    width: 45px;
+    height: 45px;
+}
+#section-Contact .developer{
+    background-color: #ffe000;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+
+}
+#section-Contact .developer small{
+    font-size: 15px;
+}
+@media screen and (max-width: 800px){
+    #section-Contact .box-one{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
+
+}
+/*Products*/
+#products-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+.producto {
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+.producto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5%;
+  }
+
+.producto button {
+    background-color:#ffe000;
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-family: 'Lexend Tera';
+  }
+.agregar-carrito {
+    background-color:#ffe000;
+    color: black;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.producto button:hover {
+    background-color: yellow;
+    color: white;
+}
+
+/*Carrito de compras*/
+#carrito {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+#carrito button{
+    background-color: #ffe000;
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: 'Lexend Tera'; 
+  } 
+#carrito button:hover{
+    background-color: red;
+}
+#carrito-lista {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+#carrito-lista li {
+    margin-bottom: 35px;
+    margin-top: 30px;
+  }
+  
+#vaciar-carrito {
+    display: block;
+    margin: 10px auto;
+    background-color:#ffe000;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px; 
+    border: 2;
+    border-radius: 10px;
+    font-family: 'Lexend Tera';
+  }
+
+#vaciar-carrito:hover{
+    background-color: green;
+    color: black;
+  }
+#comprar-btn{
+    display: block;
+    margin: 10px auto;
+    background-color:#ffe000;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px; 
+    border: 2;
+    border-radius: 10px;
+    font-family: 'Lexend Tera';
+  }
+#carrito #comprar-btn:hover{
+    background-color: greenyellow;
+  }
+#carrito #formulario-compra button:hover{
+    background-color: greenyellow;
+}
+#carrito #formulario{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#carrito #formulario-compra {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

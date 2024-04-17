@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap" rel="stylesheet">
+    <title>Todo dulce y una pizca de sal</title>
+</head>
+<header>
+    <div class="navBar">
+        <header class="banner">
+            <img src="./img/banner1.png" alt="">        
+        </header>
+        <header class="container">
+            <a href="index.html" class="logo-link">
+                <figure class="logo">
+                    <img src="./img/logo 2024.png" alt="logo">
+                </figure>
+            </a>
+            <nav class="buttons">
+                <a class="btn" href="#section-Initio">¿Quienes somos?</a>
+                <a class="btn" href="#section-Products">Productos</a>
+                <a class="btn" href="#section-Contact">Contacto</a>
+                
+            </nav>
+        </header>
+    </div>
+</header>
+<body>
+    
+    <section id="section-Initio">
+        <h2>Catering para todo tipo de evento</h2>
+        <div class="container-img">
+            <div class="card">
+                <h1>Pernil de cerdo</h1>
+                <img class="pictureInicio" src="./img/portadacerdo1.jpg" alt="">
+                <p>adobado con las más finas hierbas</p>
+            </div>
+            <div class="card">
+                <h1>Panes y salsas</h1>
+                <img class="pictureInicio" src="./img/portadacerdo2.jpg" alt="">
+                <p>panes caseros y salsas a elección</p>
+            </div>
+            <div class="card">
+                <h1>Pernil de ternera</h1>
+                <img class="pictureInicio" src="./img/portadatern3.jpg" alt="">
+                <p>servicio de fileteado</p>
+            </div>
+        </div>
+        <div class="textQuienesSomos">
+        <h1>¿Quienes somos?</h1>
+        <p>Somos una empresa familiar dedicada al catering para todo tipo de evento,
+             contamos con los mejores perniles de zona norte y oeste, somos los mejores tanto en calidad como precio.
+             Te ofrecemos los mejores productos al mejor precio, desliza abajo y chequealo!
+        </p>
+        </div>
+    </section>
+    
+    <section id="section-Products" >
+        <div id="products-container">
+
+        </div>
+    
+    <section id="section-Carrito">
+        <div id="carrito">
+            <h2>Carrito de compras</h2>
+            <ul id="carrito-lista"></ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+            <button id="comprar-btn">Comprar</button>
+            <div id="formulario" style="display:none;">
+            <h3>Completa tus datos</h3>
+            <form id="formulario-compra">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required><br><br>
+                <button type="submit">Confirmar Compra</button>
+            </form>
+            </div>
+    </div>
+    </section>
+        
+    <section id="section-Contact" >
+        <div class="box-one">
+            <div class="contact">
+                <a href="index.html" class="logo-link">
+                <figure>
+                <img src="./img/logo 2024.png" alt="logo de Todo Dulce">
+                </figure>    
+                </a>  
+            </div>
+        
+            <div class="contact">
+                <h2>Contacto</h2>
+                <p>Todo lo que necesitas es amor. Pero un poco de chocolate de vez en cuando, no hace daño.</p>
+                </P>
+            </div>
+       
+            <div class="contact">
+                <h2>Siguenos</h2>
+                <div class="container-redes">
+                    <a href="https://www.facebook.com/TodoDulceYUnaPizcaDeSal?locale=es_LA"><img src="./img/facebook.jpg" alt=""></a>
+                    <a href="https://www.instagram.com/tododulce_pizcadesal/"><img src="./img/instagram.jpg" alt=""></a>
+                    <a href="https://api.whatsapp.com/message/4J6QQPJHTQCCK1?autoload=1&app_absent=0"><img src="./img/whatsapp.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="developer">
+            <small>&copy;2024 <b>Todo Dulce Y Una Pizca De Sal</b> - Todos los Derechos Reservados by Luis Angel Alcarraz</small>
+        </div>
+    </section>
+    
+</body>
+<script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
